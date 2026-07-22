@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+# Configure SSH client to use ~/.ssh/school and disable password authentication
