@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Create a 4096-bit RSA key pair named school protected by the passphrase betty
-ssh-keygen -t rsa -b 4096 -N betty -f ~/.ssh/school
+rm -f school school.pub
+ssh-keygen -t rsa -b 4096 -N betty -f school
